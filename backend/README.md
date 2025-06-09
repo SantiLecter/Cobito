@@ -128,9 +128,10 @@ El sistema está preparado para correr en contenedores Docker, facilitando la in
 
 ---
 
-Este backend es la base para un catálogo virtual robusto, seguro y extensible, ideal para proyectos académicos o como punto de partida para soluciones reales de e-commerce.
+Este backend es la base para un catálogo virtual robusto, seguro y extensible, ideal 
+como punto de partida para soluciones reales de e-commerce.
 
-Cualquier duda o mejora, ¡contáctanos!
+Cualquier duda o mejora, no dudes en escribirnos.
 
 ## Guía rápida de pruebas (Postman, curl, JWT)
 
