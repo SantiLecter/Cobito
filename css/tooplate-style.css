@@ -278,11 +278,11 @@ figure.effect-sadie:hover p {
 .tm-text-white { color: #fff; }
 .tm-text-blue { color: #6e9ece; }
 .tm-text-blue-dark { color: #006699; }
-.tm-text-pink { color: #D6688F; }
+.tm-text-pink { color: #000000 !important }
 .tm-text-pink-dark { color: #CC6699; }
 .tm-text-brown { color: #CC6666; }
 .tm-bg-gray { background-color: #F2F2F2; }
-.tm-bg-pink { background-color: #de7099; }
+.tm-bg-pink { background-color: #000000; }
 .tm-bg-pink-light { background-color: #f9e3eb; }
 .tm-bg-pink-light-2 { background-color: #EDAABC; }
 .tm-bg-blue { background-color: #6699cc; }
@@ -345,7 +345,7 @@ figure.effect-sadie:hover p {
     width: 350px;
     margin-bottom: 25px;
     border-radius: 0;
-    border-color: #D6688F;
+    border-color: #000000;
     padding: 13px 15px;
 }
 
@@ -865,4 +865,106 @@ iframe { max-width: 100%; }
     .tm-fa-mb-big { margin-bottom: 1.5rem; }
     .tm-site-name { font-size: 2.4rem; }
     .tm-site-description { font-size: 1.2rem; }
+}
+
+
+
+/* Black Banner Design with Consistent Dark Blue Accent */
+.tm-bg-charcoal { 
+    background-color: #1a1a1a !important; 
+    border-left: 4px solid #1e3a8a !important; /* Dark blue */
+}
+
+.tm-bg-dark-slate { 
+    background-color: #1a1a1a !important; 
+    border-left: 4px solid #1e3a8a !important; /* Dark blue */
+}
+
+.tm-bg-midnight-blue { 
+    background-color: #1a1a1a !important; 
+    border-left: 4px solid #1e3a8a !important; /* Dark blue */
+}
+
+.tm-bg-deep-purple { 
+    background-color: #1a1a1a !important; 
+    border-left: 4px solid #1e3a8a !important; /* Dark blue */
+}
+
+.tm-bg-dark-teal { 
+    background-color: #1a1a1a !important; 
+    border-left: 4px solid #1e3a8a !important; /* Dark blue */
+}
+
+/* White Text Colors for All Elements */
+.tm-text-charcoal { 
+    color: #ffffff !important; 
+}
+
+.tm-text-dark-slate { 
+    color: #ffffff !important; 
+}
+
+.tm-text-midnight-blue { 
+    color: #ffffff !important; 
+}
+
+.tm-text-deep-purple { 
+    color: #ffffff !important; 
+}
+
+.tm-text-dark-teal { 
+    color: #ffffff !important; 
+}
+
+.tm-text-light { 
+    color: #ffffff !important; 
+}
+
+
+.media-body h5 {
+    color: #ffffff !important;
+    font-weight: 600 !important;
+    font-size: 1.3rem !important;
+}
+
+
+.tm-description-box p {
+    color: #e0e0e0 !important;
+    opacity: 0.9 !important;
+}
+
+
+.tm-price-tag {
+    color: #ffffff !important; 
+    font-weight: 700 !important;
+    font-size: 1.4rem !important;
+}
+
+
+.media-body {
+    border-radius: 8px !important;
+    padding: 20px !important;
+    transition: all 0.3s ease !important;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.3) !important;
+}
+
+.media-body:hover {
+    transform: translateY(-2px) !important;
+    box-shadow: 0 8px 25px rgba(0,0,0,0.4) !important;
+}
+
+.tm-buy-box a {
+    border-radius: 6px !important;
+    padding: 10px 18px !important;
+    font-weight: 500 !important;
+    transition: all 0.3s ease !important;
+    background-color: #007bff !important;
+    color: white !important;
+    border: none !important;
+}
+
+.tm-buy-box a:hover {
+    background-color: #0056b3 !important;
+    transform: translateY(-1px) !important;
+    box-shadow: 0 4px 12px rgba(0,123,255,0.3) !important;
 }
